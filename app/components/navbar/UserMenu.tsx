@@ -62,7 +62,7 @@ const UserMenu = () => {
       </div>
       {isOpen && (
         <div
-        className="
+          className="
         absolute
         cursor-pointer
         rounded-xl
@@ -73,22 +73,19 @@ const UserMenu = () => {
         overflow-hidden
         right-0
         top-12
-        text-sm">
-            <div className="flex
+        text-sm"
+        >
+          <div
+            className="flex
             flex-col
             cursor-pointer
-            ">
-                <>
-                <MenuItem 
-                onClick={() => {}}
-                label="Login"
-                />
-                 <MenuItem 
-                onClick={() => {}}
-                label="Sign Up"
-                />
-                </>
-            </div>
+            "
+          >
+            <>
+              <MenuItem onClick={() => {}} label="Login" />
+              <MenuItem onClick={() => {}} label="Sign Up" />
+            </>
+          </div>
         </div>
       )}
     </div>

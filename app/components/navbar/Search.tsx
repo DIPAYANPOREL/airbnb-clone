@@ -15,7 +15,6 @@ const Search = () => {
         cursor-pointer
         "
     >
-      
       <div
         className="flex
       flex-row
