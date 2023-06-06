@@ -10,8 +10,7 @@ const Logo = () => {
       className="hidden md:block curosr-pointer"
       height="100"
       width="100"
-      src="/images/logo.png"
-      
+      src="/images/logo.png"      
     />
   );
 };
