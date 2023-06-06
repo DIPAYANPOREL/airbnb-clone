@@ -15,6 +15,7 @@ const Search = () => {
         cursor-pointer
         "
     >
+      
       <div
         className="flex
       flex-row
@@ -61,15 +62,12 @@ const Search = () => {
           </div>
           <div
             className="
-            flex
-          
-          bg-rose-full
-          rounded-full
-          text-white"
+            p-[4px]
+            flex      
+          bg-rose-500
+          rounded-full"
           >
-            <img 
-            className="w-4 h-4"
-            src="/images/search.png" alt="search logo"/>
+            <BiSearch />
           </div>
         </div>
       </div>
