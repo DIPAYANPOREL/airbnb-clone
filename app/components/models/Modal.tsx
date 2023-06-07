@@ -126,8 +126,7 @@ const Modal: React.FC<ModelProps> = ({
               rounded-t
               justify-center
               relative
-              border-b-[1px]
-              
+              border-b-[1px]             
               "
               ></div>
             </div>
